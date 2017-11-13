@@ -1,0 +1,20 @@
+0
+1
+1
+2
+3
+5
+
+for(int i=1;i<=numberCheck;i++)
+		{
+			fibonacci=first+second;
+			if(numberCheck==fibonacci)
+			{
+				System.out.println("number exists and is part of fibonacci series "+fibonacci);
+				break;
+			}
+			else{
+				first=second;
+				second=fibonacci;
+			}
+		}
